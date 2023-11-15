@@ -1,0 +1,2 @@
+# Boost
+This project involves integrating a search functionality into a PHP-based webpage. It will require creating a search form, handling user queries, and developing a PHP script to fetch and display relevant results from the website's database. The goal is to enhance user experience by enabling efficient information retrieval. I submitted this assignment solution to https://www.programminghomeworkhelp.com/web-development-assignment/
