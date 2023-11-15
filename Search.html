@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <meta charset="utf-8">
+        <title>Search</title>
+        <link href="Search.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar">
+            <a class="nav-logo">Boost</a>
+            <ul>
+                <li><a href="loginPage.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Search.html">Search</a></li>
+            </ul>
+        </nav>
+        <div class="FindCarMove">
+            <p>Let's Find Your Car!</p>
+        </div>
+        <div class="absolute">
+            <form action="Search.php" method="get">
+                <label for="cars">Choose Vehicle Model:</label>
+                <select name="VehicleModel" id="VehicleModel">
+                    <option value=""></option>
+                    <option value="Starlet Glanza GT Turbo">Starlet Glanza GT Turbo</option>
+                    <option value="MR2 GT-S">MR2 GT-S</option>
+                    <option value="Supra">Supra</option>
+                    <option value="Skyline">Skyline</option>
+                    <option value="180SX">180SX</option>
+                    <option value="PAO">PAO</option>
+                    <option value="Prelude">Prelude</option>
+                </select>
+                <label for="colors">Choose Vehicle Make:</label>
+                <select name="VehicleMake" id="VehicleMake">
+                    <option value=""></option>
+                    <option value="Toyota">Toyota</option>
+                    <option value="Nissan">Nissan</option>
+                    <option value="Honda">Honda</option>
+                    <option value="Suzuki">Suzuki</option>
+                    <option value="Lexus">Lexus</option>
+                    <option value="Acura">Acura</option>
+                    <option value="Mazda">Mazda</option>
+                </select>
+                <label for="Year">Choose Year:</label>
+                <select name="VehicleYear" id="VehicleYear">
+                    <option value=""></option>
+                    <option value="1960">1960</option>
+                    <option value="1961">1961</option>
+                    <option value="1962">1962</option>
+                    <option value="1963">1963</option>
+                    <option value="1964">1964</option>
+                    <option value="1965">1965</option>
+                    <option value="1966">1966</option>
+                </select>
+                <label for="Seats">Choose Number of Seats:</label>
+                <select name="VehicleNumberofSeats" id="VehicleNumberofSeats">
+                    <option value=""></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Search">
+            </form>
+        </div>
+    </body>
+</html>

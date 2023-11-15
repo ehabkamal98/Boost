@@ -1,0 +1,182 @@
+div.absolute {
+    width: 75%;
+    bottom: 100px;
+    border: 7px solid blue;
+    margin: 150px;
+  }
+  
+  div.FindCarMove {
+    text-align: center;
+    width: 300px;
+    height: 87px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-size: 35px;
+    margin: 100px;
+    position: relative;
+    bottom: 275px;
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:20px; top:0px;}
+    50%  {background-color:green; left:20px; top:0px;}
+    100%   {background-color:red; left:0px; top:0px;}
+  }
+  
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: green;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  body{
+      background-color: #000;
+  }
+  
+  .navbar{
+      background-color: #000;
+      color: #d8d8d8;
+      border-bottom: 0.5px solid gray;
+      width: 100%;
+      line-height: 80px;
+      height:80px;
+      font-size: 18px;
+      padding: 0 30px;
+      position: absolute;
+      top:0;
+      left:0;
+      font-family: 'Karla';
+  }
+  
+  .navbar a{
+      text-decoration: none;
+      color: #d8d8d8;
+  }
+  
+  .navbar a.nav-logo{
+  
+      float: left;
+      height: inherit;
+      line-height:inherit;
+      padding: 0 30px;
+      font-size: 40px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-family:'Karla';
+      color: #d8d8d8;
+      font-weight: bold;
+  }
+  
+  .navbar ul{
+      float: right;
+      list-style: none;
+      height: inherit;
+      line-height:inherit;
+      padding: 0 50px;
+  }
+  
+  .navbar ul li{
+  
+      display: inline-block;
+  }
+  
+  .navbar ul li a{
+  
+      display: block;
+      text-align: center;
+      min-width: 120px;
+      padding: 0 30px;
+  }
+  
+  .navbar ul li a:hover{
+      background-color:gray;
+  }
+  
+  a:hover {
+          color: white;
+  }
+  
+  .content{
+          width: 100%;
+          position: absolute;
+          top:50%;
+          transform: translateY(-50%);
+          text-align: center;
+      font-family: 'Karla';
+      color: #d8d8d8;
+  }
+  
+  table.table-bordered {
+    border: 1px solid;
+  }
+  table.table {
+    caption-side: bottom;
+    border-collapse: collapse;
+    width: 100%;
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    vertical-align: top;
+    border-color: #dee2e6;
+  }
+
+  .table > thead {
+    vertical-align: bottom;
+  }
+
+  tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+}
+
+.table-bordered > :not(caption) > * {
+  border-width: 1px 0;
+}
+
+.table > :not(:first-child) {
+  border-top: 2px solid currentColor;
+}
+.table > tbody {
+  vertical-align: inherit;
+}
+
+.table-bordered > :not(caption) > * > * {
+  border-width: 0 1px;
+}
+.table > :not(caption) > * > * {
+  padding: .5rem .5rem;
+  background-color: var(--bs-table-bg);
+  border-bottom-width: 1px;
+  box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+}
+
+.center-align { text-align: center !important; }
